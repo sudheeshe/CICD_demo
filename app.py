@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return "Flask app is running"
+    return "App is successfully deployed"
 
 
 if __name__ == "__main__":
