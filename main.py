@@ -1,19 +1,9 @@
-
-from flask import Flask
-
 from wsgiref import simple_server
-
-from flask import Flask, session, request, Response, jsonify
-
-
-
-import atexit
-import uuid
+from flask import Flask
 import os
 
+
 app = Flask(__name__)
-
-
 @app.route('/', methods=['GET', 'POST'])
 def index():
     return "App is successfully deployed"

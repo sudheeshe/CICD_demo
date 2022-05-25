@@ -1,7 +1,6 @@
 import unittest
 
 from main import app
-import os
 
 
 class TestToPerform(unittest.TestCase):
